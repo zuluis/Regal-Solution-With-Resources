@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&fami&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .font-manrope{
+        font-family:"Manrope", sans-serif;
+    }
+</style>
 </head>
-<body>
+<body class="font-manrope">
+    <header class="mx-auto py-12 container px-12 ">
+        <nav class="flex justify-between py-7 px-7">
+            <div class="flex  justify-center items-center gap-2">
+                <img class="w-10 h-10" src="images/business.png" alt="">
+                <h2 class="text-3xl font-medium">Justice</h2>
+            </div>
+            <ul class="flex gap-3 pt-5">
+              <li>Home</li>
+              <li>Services</li>
+              <li>Coses </li>
+              <li>Blog</li>
+              <li>Contact Us</li>
+            </ul>
+            <button class="btn btn-active">Free Consultation</button>  
+        </nav>
+        <div class="hero md:min-h-screen  " style="background-image: url(images/banner.png);">
+          <div class="bg-opacity-40"></div>
+          <div class=" text-center text-neutral-content py-10 px-10">
+            <div>
+              <h1 class="mb-5 text-5xl font-bold">We Provide Effective<br> Legal Solutions</h1>
+              <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.<br> In deleniti eaque aut repudiandae et a id nisi.</p>
+              <div class=" flex gap-7 items-center justify-center">
+              <button class="btn btn-secondary">search your services</button>
+              <button class="btn btn-error">search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <main>
+      <section>
+
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
     
+
 </body>
 </html>
